@@ -1,0 +1,57 @@
+fieldset {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.input-contain {
+    margin-bottom: 1.5em;
+}
+
+.input-contain * {
+    display: inline-block;
+    width: 48%;
+}
+
+.input-contain textarea {
+    width: 100%;
+}
+
+fieldset button {
+    float: right;
+}
+
+* {
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+}
+
+body {
+    background-image: url('../images/pokemon_spectrum.jpg');
+}
+
+fieldset {
+    width: 50%;
+    margin-top: 3em;
+    border: 5px solid lightblue;
+    background-color: rgba(52, 152, 219,.5);
+}
+
+label {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+input {
+    height: 30px;
+    margin: 5px 0;
+    padding-left: 10px;
+    border: 5px solid lightblue;
+    outline: none;
+    transition: border-color .2s;
+}
+
+input:focus, input:hover {
+    text-decoration: none;
+    border-color: #2ECC71;
+    outline: #2ECC71;
+}

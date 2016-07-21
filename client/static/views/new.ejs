@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Survey Form</title>
+        <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+        <link rel="stylesheet" href="../styles/index.css">
+    </head>
+    <body>
+        <form action="/pokemon" method="post" id="poke-form">
+            <fieldset>
+                <div class="input-contain">
+                    <label for="poke-name">Pokemon Name:</label>
+                    <input id="poke-name" type="text" name="name" value="">
+                </div>
+                <div class="input-contain">
+                    <label for="poke-type">Pokemon Type:</label>
+                    <input id="poke-type" type="text" name="type">
+                </div>
+                <div class="input-contain">
+                    <label for="poke-weight">Pokemon Weight (in KG):</label>
+                    <input id="poke-weight" type="text" name="weight">
+                </div>
+                <div class="input-contain">
+                    <label for="poke-height">Pokemon Height (in M):</label>
+                    <input id="poke-height" type="text" name="height">
+                </div>
+                <button type="submit" form="poke-form" value="Submit">Submit</button>
+            </fieldset>
+        </form>
+    </body>
+</html>
